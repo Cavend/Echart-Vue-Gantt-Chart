@@ -2,6 +2,7 @@
   <div id="app">
     <el-container>
       <GanttChart />
+      <newGanttChart />
     </el-container>
 
     <!-- <img src="./assets/logo.png">
@@ -20,12 +21,13 @@
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 import GanttChart from '@/components/echartGanttChart.vue'
-
+import newGanttChart from '@/components/ganttChart.vue'
 export default {
   name: 'app',
   components: {
     GanttChart,
     // HelloWorld
+    newGanttChart,
   }
 }
 </script>
